@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/896bf47389.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <title>Tea House</title>
+  </head>
+  <body>
+    <header>
+      <div
+        class="md:flex font-manrope w-full max-w-7xl mx-auto justify-center items-center py-14 px-5 gap-4"
+      >
+        <div class="w-full lg:w-1/2">
+          <h1 class="text-7xl font-extrabold">It's good</h1>
+          <h1 class="text-7xl font-extrabold">tea time at The</h1>
+          <h1 class="text-7xl font-extrabold">Tea House</h1>
+          <p class="text-lg font-medium text-zinc-500 my-7">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="flex text-white py-5 px-4 bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-xl items-center"
+          >
+            <h3 class="font-bold text-xl pr-1.5">Explore More</h3>
+            <i class="fa-solid fa-arrow-up-right-from-square font-bold"></i>
+          </button>
+        </div>
+        <div class="w-full lg:w-1/2 border-2 mt-4">
+          <img src="images/banner.png" alt="" />
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
